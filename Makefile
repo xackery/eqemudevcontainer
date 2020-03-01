@@ -1,4 +1,4 @@
-VERSION=0.0.1
+VERSION=0.0.2
 docker-build:
 	@docker build -t eqemudevcontainer .
 docker-push: docker-build
